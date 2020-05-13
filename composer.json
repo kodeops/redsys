@@ -1,0 +1,23 @@
+{
+	"name": "kodeops/redsys",
+	"description": "Redsys PHP Utilities",
+	"keywords": [
+		"Redsys",
+		"api",
+		"php"
+	],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"kodeops\\Redsys\\": "src/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
